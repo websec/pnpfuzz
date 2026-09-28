@@ -1,0 +1,25 @@
+# Build output
+build/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Runtime output
+pnpfuzz-logs/
+*.jsonl
+*.csv
+
+# Per-host auto-batch width cache (also lives in %LOCALAPPDATA%\pnpfuzz)
+wu-width-*.txt
+checkpoint-*.txt
+
+# Editor / OS cruft
+.vs/
+.vscode/
+*.user
+Thumbs.db
+desktop.ini
+.DS_Store
